@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "Grotesk";
+    src: url('font/Grotesk.ttf') format('truetype');
+}
+body {
+    text-align: center;
+    background-color: #343434;
+}
+div {
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Grotesk", sans-serif;
+}
+h1 {
+    color: #F7FFF7;
+    font-family: "Grotesk", sans-serif;
+}
+#yesButton {
+    font-family: "Grotesk", sans-serif;
+    background-color: #06d6a0;
+    transition: transform 0.3s;
+    margin-right: 10px;
+    width: 120px;
+    font-size: 20px;
+    height: 40px;
+    color: #fff;
+    margin-left: -140px;
+    border-radius: 3em;
+}
+#no {
+    font-family: "Grotesk", sans-serif;
+    position: absolute;
+    background-color: #ef476f;
+    transition: transform 0.3s;
+    margin-left: 10px;
+    width: 120px;
+    /* font-size: 30px; */
+    height: 40px;
+    color: #fff;
+    border-radius: 3em;
+}
